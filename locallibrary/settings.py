@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-&k0tnq6r)dm2p8
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['whispering-basin-01625.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['whispering-basin-01625.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
